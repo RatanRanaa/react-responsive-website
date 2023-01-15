@@ -46,10 +46,13 @@ body{
 /* Navbar */
 
 .navbar {
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
+  z-index: 10;
   top: 0;
   left: 0;
   width: 100%;
+  background-color: black;
 }
 .navbar_text{
   display: flex;
@@ -60,6 +63,7 @@ body{
 }
 .logo{
   width: 40%;
+  cursor: pointer;
 }
 .logo img {
   width: 220px;
