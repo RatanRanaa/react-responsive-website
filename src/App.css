@@ -21,7 +21,7 @@ body{
   color: #fff;
 }
 .container{
-  width: 1200px;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -62,7 +62,7 @@ body{
   display: flex;
   height: 60px;
   align-items: center;
-  width: 1200px;
+  /* width: 1200px; */
   margin: 0 auto;
 }
 .logo{
@@ -231,7 +231,7 @@ body{
   margin-top: 15px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .navbar_text {
     display: flex;
     height: auto;
@@ -276,9 +276,9 @@ body{
     font-weight: 300;
     text-transform: uppercase;
   }
-  .col-3,
-  .col-4,
-  .col-6 {
+  .col_3,
+  .col_4,
+  .col_6 {
     width: 100%;
   }
   .client {
@@ -292,5 +292,8 @@ body{
   }
   .menu h1 {
     font-size: 25px;
+  }
+  .about_btn{
+    margin-bottom: 50px;
   }
 }
